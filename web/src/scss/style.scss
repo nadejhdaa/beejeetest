@@ -1,0 +1,62 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+	margin: 0;
+	font-size:16px; 
+}
+
+/* Modal */
+.modal {
+	button.close {
+		position: absolute;
+    background: #ccc;
+    width: 30px;
+    height: 30px;
+    top: 10px;
+    right: 10px;
+	}
+}
+.modal-dialog {
+	background-color: #fff;
+	padding: 15px 20px 20px 20px;
+	position: relative;
+}
+.modal-content {
+	border: none;
+  padding: 5px;
+}
+
+/* Forms */
+.form-actions {
+  margin: 15px 0;
+}
+.invalid-feedback {
+	color: red;
+}
+.form-control {
+	font-size: 16px;
+}
+
+/**/
+body.login {
+	main {
+		padding: 40px 15px;
+	}
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 40px 15px;
+  margin: 0 auto;
+  .form-control {
+  	position: relative;
+	  box-sizing: border-box;
+	  height: auto;
+	  padding: 10px;
+	  font-size: 16px;
+  }
+}
+.msg-wrapper {
+	margin: 20px 0;
+}
